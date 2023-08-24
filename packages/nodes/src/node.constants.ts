@@ -8,6 +8,7 @@ export type EthereumNodeServiceOptions = {
   chainId?: number;
   defaultBalance?: number;
   defaultBa111lance?: number;
+  defaultBa111lan222ce?: number;
 };
 
 export type Account = {
