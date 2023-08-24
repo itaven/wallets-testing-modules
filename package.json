@@ -45,9 +45,6 @@
       "requireCleanWorkingDir": false,
       "tag": true
     },
-    "npm": {
-      "ignoreVersion": true
-    },
     "plugins": {
       "@release-it/conventional-changelog": {
         "preset": "angular"
