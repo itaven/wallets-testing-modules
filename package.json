@@ -45,7 +45,6 @@
       "requireCleanWorkingDir": false,
       "tag": true,
       "commit": false
-    },
     }
   }
 }
