@@ -46,7 +46,8 @@
   },
   "release-it": {
     "git": {
-      "requireCleanWorkingDir": false
+      "requireCleanWorkingDir": false,
+      "tag": true
     },
     "npm": {
       "ignoreVersion": true
