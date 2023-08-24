@@ -37,8 +37,5 @@
   },
   "release-it": {
     "git": false
-  },
-  "npm": {
-    "ignoreVersion": true
   }
 }
