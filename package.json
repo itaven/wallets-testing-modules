@@ -46,10 +46,6 @@
       "tag": true,
       "commit": false
     },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
     }
   }
 }
