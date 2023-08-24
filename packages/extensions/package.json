@@ -1,5 +1,5 @@
 {
-  "name": "@tester17/wallets-testing-extensions",
+  "name": "@tester122/wallets-testing-extensions",
   "version": "0.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
