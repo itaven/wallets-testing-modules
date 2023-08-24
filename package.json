@@ -46,16 +46,8 @@
       "tag": true,
       "commit": false
     },
-    "github": {
-      "release": true
-    },
     "npm": {
       "ignoreVersion": true
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "preset": "angular"
-      }
     }
   }
 }
