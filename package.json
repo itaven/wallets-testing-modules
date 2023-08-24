@@ -46,6 +46,9 @@
       "tag": true,
       "tagName": "v${version}",
       "commit": false
+    },
+    "npm": {
+      "ignoreVersion": true
     }
   }
 }
