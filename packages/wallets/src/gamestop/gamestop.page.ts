@@ -18,6 +18,7 @@ export class GameStopPage implements WalletPage {
         this.extensionUrl + this.config.COMMON.EXTENSION_START_PATH,
       );
       await this.page.reload();
+      await this.page.reload();
       await this.page.waitForTimeout(1000);
       await this.unlock();
     });
