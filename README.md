@@ -16,7 +16,7 @@ NestJS modules for wallets integrations automated testing.
 ## Install
 
 1. `yarn install`
-2. `yarn build`1111111
+2. `yarn build`1111111123
 
 ## Usage
 
