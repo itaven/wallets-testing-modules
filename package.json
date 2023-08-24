@@ -11,7 +11,7 @@
     "build": "tsc --build",
     "test": "playwright test",
     "lint": "eslint --ext ts .",
-    "release": "npm run release --workspaces && release-it",
+    "release": "npm run release --workspaces && release-it --no-npm",
     "publish:dry": "release-it --ci --dry-run"
   },
   "devDependencies": {
@@ -43,7 +43,8 @@
   "release-it": {
     "git": {
       "requireCleanWorkingDir": false,
-      "tag": true
+      "tag": true,
+      "commit": false
     },
     "plugins": {
       "@release-it/conventional-changelog": {
