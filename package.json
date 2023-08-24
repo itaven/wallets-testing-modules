@@ -47,6 +47,11 @@
   "release-it": {
     "git": {
       "requireCleanWorkingDir": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular"
+      }
     }
   }
 }
