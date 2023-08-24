@@ -42,7 +42,7 @@
     "git": {
       "requireCleanWorkingDir": false,
       "tag": true,
-      "commit": false
+      "commit": true
     },
     "npm": {
       "ignoreVersion": true
