@@ -1,6 +1,6 @@
 {
   "name": "wallets-testing-modules",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -48,9 +48,8 @@
     "git": {
       "requireCleanWorkingDir": false
     },
-    "github": {
-      "release": true,
-      "releaseName": "Release ${version}"
+    "npm": {
+      "ignoreVersion": true
     },
     "plugins": {
       "@release-it/conventional-changelog": {

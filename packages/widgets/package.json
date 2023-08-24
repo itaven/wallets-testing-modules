@@ -1,6 +1,6 @@
 {
   "name": "@tester713/wallets-testing-widgets",
-  "version": "4.0.5",
+  "version": "1.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -44,18 +44,6 @@
     "@nestjs/testing": "^8.2.5"
   },
   "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false
-    },
-    "plugins": {
-      "@release-it/bumper": {
-        "out": {
-          "file": "package.json",
-          "path": [
-            "dependencies.@tester713/wallets-testing-wallets"
-          ]
-        }
-      }
-    }
+    "git": false
   }
 }
