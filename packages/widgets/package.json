@@ -1,6 +1,6 @@
 {
   "name": "@tester713/wallets-testing-widgets",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tester713/wallets-testing-wallets": "*",
+    "@tester713/wallets-testing-wallets": "4.0.1",
     "@nestjs/common": "^8.2.5",
     "@nestjs/config": "^2.2.0",
     "@playwright/test": "^1.29.1",
@@ -51,7 +51,9 @@
       "@release-it/bumper": {
         "out": {
           "file": "package.json",
-          "path": ["dependencies.@tester713/wallets-testing-wallets"]
+          "path": [
+            "dependencies.@tester713/wallets-testing-wallets"
+          ]
         }
       }
     }
