@@ -717,7 +717,7 @@
     defer-to-connect "^2.0.1"
 
 "@tester234/wallets-testing-extensions@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/extensions":
-  version "0.0.7"
+  version "0.0.8"
   resolved "file:packages/extensions"
   dependencies:
     "@nestjs/common" "^8.2.5"
@@ -729,7 +729,7 @@
     unzipper "^0.10.11"
 
 "@tester234/wallets-testing-nodes@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/nodes":
-  version "0.0.7"
+  version "0.0.8"
   resolved "file:packages/nodes"
   dependencies:
     "@ganache/console.log" "^0.2.0"
@@ -742,7 +742,7 @@
     rxjs "^7.5.6"
 
 "@tester234/wallets-testing-wallets@*", "@tester234/wallets-testing-wallets@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/wallets":
-  version "0.0.7"
+  version "0.0.8"
   resolved "file:packages/wallets"
   dependencies:
     "@playwright/test" "^1.29.1"
@@ -752,7 +752,7 @@
     rxjs "^7.5.6"
 
 "@tester234/wallets-testing-widgets@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/widgets":
-  version "0.0.7"
+  version "0.0.8"
   resolved "file:packages/widgets"
   dependencies:
     "@nestjs/common" "^8.2.5"
