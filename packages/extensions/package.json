@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it --no-git.requireCleanWorkingDir --no-git"
+    "release": "release-it --no-git.requireCleanWorkingDir"
   },
   "keywords": [
     "lido",
@@ -42,12 +42,5 @@
     "@nestjs/core": "^8.2.5",
     "@nestjs/testing": "^8.2.5",
     "@types/unzipper": "^0.10.5"
-  },
-  "release-it": {
-    "git": {
-      "commit": false,
-      "tag": false,
-      "push": false
-    }
   }
 }
