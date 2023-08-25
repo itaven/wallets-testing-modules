@@ -9,4 +9,4 @@ Make sure that .env file with filled vars is present and all packages from the p
 ```shell
 yarn install
 yarn test
-```1
+```11
