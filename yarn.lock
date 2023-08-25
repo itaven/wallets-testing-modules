@@ -716,8 +716,8 @@
   dependencies:
     defer-to-connect "^2.0.1"
 
-"@tester543/wallets-testing-extensions@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/extensions":
-  version "0.1.1"
+"@tester789/wallets-testing-extensions@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/extensions":
+  version "0.0.1"
   resolved "file:packages/extensions"
   dependencies:
     "@nestjs/common" "^8.2.5"
@@ -728,8 +728,8 @@
     rxjs "^7.5.6"
     unzipper "^0.10.11"
 
-"@tester543/wallets-testing-nodes@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/nodes":
-  version "0.1.1"
+"@tester789/wallets-testing-nodes@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/nodes":
+  version "0.0.1"
   resolved "file:packages/nodes"
   dependencies:
     "@ganache/console.log" "^0.2.0"
@@ -741,8 +741,8 @@
     reflect-metadata "^0.1.13"
     rxjs "^7.5.6"
 
-"@tester543/wallets-testing-wallets@*", "@tester543/wallets-testing-wallets@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/wallets":
-  version "0.1.1"
+"@tester789/wallets-testing-wallets@*", "@tester789/wallets-testing-wallets@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/wallets":
+  version "0.0.1"
   resolved "file:packages/wallets"
   dependencies:
     "@playwright/test" "^1.29.1"
@@ -751,14 +751,14 @@
     reflect-metadata "^0.1.13"
     rxjs "^7.5.6"
 
-"@tester543/wallets-testing-widgets@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/widgets":
-  version "0.0.3"
+"@tester789/wallets-testing-widgets@file:/home/runner/work/wallets-testing-modules/wallets-testing-modules/packages/widgets":
+  version "0.0.1"
   resolved "file:packages/widgets"
   dependencies:
     "@nestjs/common" "^8.2.5"
     "@nestjs/config" "^2.2.0"
     "@playwright/test" "^1.29.1"
-    "@tester543/wallets-testing-wallets" "*"
+    "@tester789/wallets-testing-wallets" "*"
     expect "^28.1.3"
     playwright "^1.29.1"
     reflect-metadata "^0.1.13"
