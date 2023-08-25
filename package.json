@@ -37,5 +37,15 @@
     "./**/*.{ts,js,md,json}": [
       "prettier --write"
     ]
+  },
+  "release-it": {
+     "github": {
+      "release": true
+  }
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular"
+    }
   }
 }
