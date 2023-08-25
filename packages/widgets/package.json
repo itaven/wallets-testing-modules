@@ -29,7 +29,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tester234/wallets-testing-wallets": "*",
+    "@tester543/wallets-testing-wallets": "*",
     "@nestjs/common": "^8.2.5",
     "@nestjs/config": "^2.2.0",
     "@playwright/test": "^1.29.1",
