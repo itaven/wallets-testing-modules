@@ -1,6 +1,6 @@
 {
-  "name": "@tester55/wallets-testing-wallets",
-  "version": "0.1.0",
+  "name": "@tester667/wallets-testing-wallets",
+  "version": "1.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it --npm.ignoreVersion"
+    "release": "release-it --no-git.requireCleanWorkingDir\""
   },
   "keywords": [
     "lido",
@@ -36,6 +36,11 @@
     "rxjs": "^7.5.6"
   },
   "release-it": {
-    "git": false
-  }
+    "release-it": {
+      "git": {
+        "commit": false,
+        "tag": false,
+        "push": false
+      }
+    }
 }

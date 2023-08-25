@@ -1,6 +1,6 @@
 {
   "name": "wallets-testing-modules",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -11,7 +11,7 @@
     "build": "tsc --build",
     "test": "playwright test",
     "lint": "eslint --ext ts .",
-    "release": "npm run release --workspaces && release-it --npm.ignoreVersion",
+    "release": "npm run release --workspaces && release-it --no-npm --no-git.requireCleanWorkingDir",
     "publish:dry": "release-it --ci --dry-run"
   },
   "devDependencies": {
@@ -37,15 +37,5 @@
     "./**/*.{ts,js,md,json}": [
       "prettier --write"
     ]
-  },
-  "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false,
-      "tag": true,
-      "commit": true
-    },
-    "npm": {
-      "ignoreVersion": true
-    }
   }
 }
