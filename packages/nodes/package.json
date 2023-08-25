@@ -1,6 +1,6 @@
 {
-  "name": "@tester667/wallets-testing-nodes",
-  "version": "1.0.1",
+  "name": "@tester567/wallets-testing-nodes",
+  "version": "0.0.1",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it --no-git.requireCleanWorkingDir"
+    "release": "release-it --no-git.requireCleanWorkingDir --npm.ignoreVersion"
   },
   "keywords": [
     "lido",
