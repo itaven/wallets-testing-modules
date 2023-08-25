@@ -1,5 +1,5 @@
 {
-  "name": "@tester234/wallets-testing11",
+  "name": "@tester543/wallets-testing11",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -15,8 +15,7 @@
     "pretest": "tsc --incremental -p tsconfig.json",
     "test": "yarn pretest && playwright test -c ./dist",
     "test:smoke": "yarn pretest && playwright test -c ./dist smoke",
-    "test:widgets": "yarn pretest && playwright test -c ./dist widgets",
-    "release": "release-it --no-git.requireCleanWorkingDir"
+    "test:widgets": "yarn pretest && playwright test -c ./dist widgets"
   },
   "dependencies": {
     "@lidofinance/wallets-testing-extensions": "link:../packages/extensions",
