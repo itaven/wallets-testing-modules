@@ -46,6 +46,9 @@
       "tag": true,
       "commit": false
     },
+    "npm": {
+      "ignoreVersion": true
+    },
     "plugins": {
       "@release-it/conventional-changelog": {
         "preset": "angular"
