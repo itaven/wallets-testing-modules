@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it"
+    "release": "release-it --no-git.requireCleanWorkingDir"
   },
   "keywords": [
     "lido",
@@ -44,9 +44,8 @@
     "@types/unzipper": "^0.10.5"
   },
   "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false,
-      "commit": false
+    "release-it": {
+      "git": false
     }
   }
 }

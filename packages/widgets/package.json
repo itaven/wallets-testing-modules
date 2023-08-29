@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it"
+    "release": "release-it --no-git.requireCleanWorkingDir"
   },
   "keywords": [
     "lido",
@@ -29,7 +29,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tester117/wallets-testing-wallets": "*",
+    "@tester118/wallets-testing-wallets": "*",
     "@nestjs/common": "^8.2.5",
     "@nestjs/config": "^2.2.0",
     "@playwright/test": "^1.29.1",
@@ -44,9 +44,8 @@
     "@nestjs/testing": "^8.2.5"
   },
   "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false,
-      "commit": false
+    "release-it": {
+      "git": false
     }
   }
 }
