@@ -1,6 +1,6 @@
 {
-  "name": "@tester789/wallets-testing-nodes",
-  "version": "0.0.0",
+  "name": "@tester112/wallets-testing-nodes",
+  "version": "1.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
