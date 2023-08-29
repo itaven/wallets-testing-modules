@@ -1,6 +1,6 @@
 {
   "name": "@tester118/wallets-testing-extensions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -44,10 +44,6 @@
     "@types/unzipper": "^0.10.5"
   },
   "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false,
-      "push": false,
-      "commit": false
-    }
+    "git": false
   }
 }
