@@ -36,8 +36,6 @@
     "rxjs": "^7.5.6"
   },
   "release-it": {
-    "release-it": {
-      "git": false
-    }
+    "git": false
   }
 }
