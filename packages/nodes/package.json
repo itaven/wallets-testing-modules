@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it --npm.ignoreVersion"
+    "release": "release-it"
   },
   "keywords": [
     "lido",
@@ -47,6 +47,6 @@
     "git": false
   },
   "npm": {
-    "ignoreVersion": true
+    "ignoreVersion": false
   }
 }

@@ -11,7 +11,7 @@
     "build": "tsc --build",
     "test": "playwright test",
     "lint": "eslint --ext ts .",
-    "release": "npm run release --workspaces && release-it --npm.ignoreVersion",
+    "release": "npm run release --workspaces && release-it",
     "publish:dry": "release-it --ci --dry-run"
   },
   "devDependencies": {
@@ -47,7 +47,7 @@
       "commit": false
     },
     "npm": {
-      "ignoreVersion": true
+      "ignoreVersion": false
     },
     "plugins": {
       "@release-it/conventional-changelog": {
