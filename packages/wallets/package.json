@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "npx release-it --npm.ignoreVersion --release-version"
+    "release": "release-it --npm.ignoreVersion --release-version"
   },
   "keywords": [
     "lido",
