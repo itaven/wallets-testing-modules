@@ -1,6 +1,6 @@
 {
-  "name": "@tester114/wallets-testing-widgets",
-  "version": "0.1.2",
+  "name": "@tester115/wallets-testing-widgets",
+  "version": "0.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it --no-git.requireCleanWorkingDir --no-version"
+    "release": "release-it --npm.ignoreVersion"
   },
   "keywords": [
     "lido",
@@ -29,7 +29,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tester114/wallets-testing-wallets": "*",
+    "@tester115/wallets-testing-wallets": "*",
     "@nestjs/common": "^8.2.5",
     "@nestjs/config": "^2.2.0",
     "@playwright/test": "^1.29.1",
@@ -42,5 +42,8 @@
     "@nestjs/common": "^8.2.5",
     "@nestjs/core": "^8.2.5",
     "@nestjs/testing": "^8.2.5"
+  },
+  "release-it": {
+    "git": false
   }
 }

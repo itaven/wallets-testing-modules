@@ -9,7 +9,6 @@ export class ExodusPage implements WalletPage {
     private browserContext: BrowserContext,
     private extensionUrl: string,
     public config: WalletConfig,
-    public config1: WalletConfig,
   ) {}
 
   async navigate() {
