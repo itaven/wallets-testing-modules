@@ -44,6 +44,10 @@
     "@types/unzipper": "^0.10.5"
   },
   "release-it": {
-    "git": false
+    "git": false,
+    "npm": {
+      "ignoreVersion": true
+    }
+
   }
 }
