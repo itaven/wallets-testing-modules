@@ -45,6 +45,7 @@
   },
   "release-it": {
     "git": {
+      "requireCleanWorkingDir": false,
       "commit": false
     }
   }
