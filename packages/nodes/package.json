@@ -1,6 +1,6 @@
 {
   "name": "@tester120/wallets-testing-nodes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -44,7 +44,7 @@
     "@nestjs/testing": "^8.2.5"
   },
   "release-it": {
-    "git":{
+    "git": {
       "requireCleanWorkingDir": false,
       "tag": true,
       "tagAnnotation": "wallets-testing-nodes/${version}"
