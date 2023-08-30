@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "packages/extensions",
-    "packages/nodes",
-    "packages/wallets",
-    "packages/widgets"
+    "packages/dist/*"
   ],
   "description": "Common modules for testing wallets",
   "sideEffects": false,
