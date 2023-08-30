@@ -23,7 +23,9 @@ jobs:
         with:
           node-version: '18.15'
           cache: 'yarn'
-      - name: Install dependencies
+      - name: Install root dependencies
+        run: yarn install --immutable
+      - name: Install wallets dependencies
         run: yarn install --immutable
       - name: Run lint
         run: yarn lint
