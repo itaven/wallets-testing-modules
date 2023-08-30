@@ -40,5 +40,4 @@ jobs:
         run: |
           git config --global user.email "ci@github.com"
           git config --global user.name "Robot"
-          yarn cache clean
           yarn release
