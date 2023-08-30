@@ -1,6 +1,6 @@
 {
-  "name": "@tester118/wallets-testing-extensions",
-  "version": "0.0.4",
+  "name": "@tester119/wallets-testing-extensions",
+  "version": "0.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -15,7 +15,7 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it --npm.ignoreVersion"
+    "release": "release-it"
   },
   "keywords": [
     "lido",
@@ -44,6 +44,15 @@
     "@types/unzipper": "^0.10.5"
   },
   "release-it": {
-    "git": false
+    "git":{
+      "requireCleanWorkingDir": false,
+      "push": false,
+      "commit": false,
+      "tag": true,
+      "tagAnnotation": "wallets-testing-extensions/${version}"
+    },
+    "npm": {
+      "ignoreVersion": false
+    }
   }
 }
