@@ -1,5 +1,5 @@
 {
-  "name": "@tester119/wallets-testing-wallets",
+  "name": "@tester120/wallets-testing-wallets",
   "version": "0.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -38,8 +38,6 @@
   "release-it": {
     "git":{
       "requireCleanWorkingDir": false,
-      "push": false,
-      "commit": false,
       "tag": true,
       "tagAnnotation": "wallets-testing-wallets/${version}"
     },
