@@ -28,7 +28,7 @@ export class MyService {
         const extensionDir = await extensionService.getExtensionDirFromId(
             'nkbihfbeogaeaoehlefnkodbefgpgknn',
         );
-        expect(extensionDir).toBeDefined();
+        expect(extensionDir).toBeDefined();123
     }
 }
 ```
