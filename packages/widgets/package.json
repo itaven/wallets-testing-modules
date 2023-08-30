@@ -4,14 +4,14 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
-  "homepage": "https://github.com/lidofinance/wallets-testing-modules",
+  "homepage": "https://github.com/itaven/wallets-testing-modules",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lidofinance/wallets-testing-modules.git",
+    "url": "https://github.com/itaven/wallets-testing-modules.git",
     "directory": "packages/widgets"
   },
   "bugs": {
-    "url": "https://github.com/lidofinance/wallets-testing-modules/issues"
+    "url": "https://github.com/itaven/wallets-testing-modules/issues"
   },
   "sideEffects": false,
   "scripts": {
