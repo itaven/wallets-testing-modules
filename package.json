@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "dist/packages/*"
+    "packages/*"
   ],
   "description": "Common modules for testing wallets",
   "sideEffects": false,
