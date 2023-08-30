@@ -19,6 +19,7 @@ export class ExodusPage implements WalletPage {
       );
       await this.page.reload();
       await this.page.waitForTimeout(1000);
+      await this.page.waitForTimeout(1000);
       await this.unlock();
     });
   }
