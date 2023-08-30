@@ -34,7 +34,7 @@ export class TahoPage implements WalletPage {
       if (firstTime) await this.firstTimeSetup();
     });
   }
-
+  // test
   async firstTimeSetup() {
     await test.step('First time setup', async () => {
       if (!this.page) throw "Page isn't ready";
