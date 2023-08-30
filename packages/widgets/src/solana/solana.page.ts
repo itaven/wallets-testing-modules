@@ -35,6 +35,7 @@ export class SolanaPage implements WidgetPage {
             .first()
             .click();
           await this.page.waitForTimeout(2000);
+          await this.page.waitForTimeout(2000);
           if (
             (await this.page.locator("button :has-text('Submit')").count()) ===
             0
