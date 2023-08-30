@@ -1,6 +1,6 @@
 {
-  "name": "@tester223/wallets-testing-extensions",
-  "version": "0.0.1",
+  "name": "@tester513/wallets-testing-extensions",
+  "version": "0.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -15,14 +15,14 @@
   },
   "sideEffects": false,
   "scripts": {
-    "release": "release-it"
+    "build": "tsc --build"
   },
   "keywords": [
     "lido",
     "lidofinance"
   ],
   "files": [
-    "dist/*"
+    "dist"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -42,15 +42,5 @@
     "@nestjs/core": "^8.2.5",
     "@nestjs/testing": "^8.2.5",
     "@types/unzipper": "^0.10.5"
-  },
-  "release-it": {
-    "git": {
-      "requireCleanWorkingDir": false,
-      "tag": true,
-      "tagName": "${npm.name}@${version}"
-    },
-    "npm": {
-      "ignoreVersion": true
-    }
   }
 }

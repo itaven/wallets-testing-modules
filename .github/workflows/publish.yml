@@ -21,15 +21,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18.15'
+          node-version: 16
           cache: 'yarn'
       - name: Install root dependencies
-        run: yarn install --immutable
-      - name: Install wallets dependencies
-        run: |
-          cd ./wallets-testing
-          yarn install --immutable
-          cd ..
+        run: yarn install --frozen-lockfile
+      - name: Build
+        run: yarn build
       - name: Run lint
         run: yarn lint
 
@@ -42,7 +39,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          git config --global user.email "ci@github.com"
-          git config --global user.name "Robot"
-          yarn release
+        run:
+          yarn multi-semantic-release --deps.bump=override --deps.release=patch --sequential-init
