@@ -1,4 +1,4 @@
-import { NodeModule } from '@tester223/wallets-testing-nodes';
+import { NodeModule } from '@tester513/wallets-testing-nodes';
 import { ConfigModule, ConfigService } from './config';
 import { DynamicModule } from '@nestjs/common';
 

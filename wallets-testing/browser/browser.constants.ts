@@ -9,14 +9,14 @@ import {
   TahoPage,
   GameStopPage,
   XdefiPage,
-} from '@tester223/wallets-testing-wallets';
+} from '@tester513/wallets-testing-wallets';
 import {
   EthereumPage,
   KusamaPage,
   PolkadotPage,
   PolygonPage,
   SolanaPage,
-} from '@tester223/wallets-testing-widgets';
+} from '@tester513/wallets-testing-widgets';
 
 export const WALLET_PAGES = {
   metamask: MetamaskPage,

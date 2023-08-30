@@ -5,13 +5,13 @@ Download extensions from chrome store
 ## Install
 
 ```bash
-yarn add @tester223/wallets-testing-extensions
+yarn add @tester513/wallets-testing-extensions
 ```
 
 ## Usage
 
 ```ts
-import {ExtensionService, ExtensionsModule} from "@tester223/wallets-testing-extensions";
+import {ExtensionService, ExtensionsModule} from "@tester513/wallets-testing-extensions";
 
 @Module({
     imports: [ExtensionsModule],

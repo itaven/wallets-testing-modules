@@ -3,7 +3,7 @@ import { INestApplication } from '@nestjs/common';
 import {
   ExtensionService,
   ExtensionsModule,
-} from '@tester223/wallets-testing-extensions';
+} from '@tester513/wallets-testing-extensions';
 import * as fs from 'fs';
 import { test, expect } from '@playwright/test';
 

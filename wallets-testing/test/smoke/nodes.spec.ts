@@ -1,6 +1,6 @@
 import { Test } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
-import { EthereumNodeService } from '@tester223/wallets-testing-nodes';
+import { EthereumNodeService } from '@tester513/wallets-testing-nodes';
 import { MATIC_TOKEN } from './consts';
 import { prepareNodeModule } from '../../commons';
 import { test, expect } from '@playwright/test';

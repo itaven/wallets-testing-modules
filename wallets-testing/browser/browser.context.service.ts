@@ -3,12 +3,12 @@ import { BrowserContext, chromium, Page } from 'playwright';
 import * as fs from 'fs/promises';
 import * as os from 'os';
 import * as path from 'path';
-import { WalletConfig } from '@tester223/wallets-testing-wallets';
-import { EthereumNodeService } from '@tester223/wallets-testing-nodes';
+import { WalletConfig } from '@tester513/wallets-testing-wallets';
+import { EthereumNodeService } from '@tester513/wallets-testing-nodes';
 import {
   ExtensionService,
   Manifest,
-} from '@tester223/wallets-testing-extensions';
+} from '@tester513/wallets-testing-extensions';
 
 @Injectable()
 export class BrowserContextService {

@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '../config';
-import { ExtensionsModule } from '@tester223/wallets-testing-extensions';
+import { ExtensionsModule } from '@tester513/wallets-testing-extensions';
 import { BrowserService } from './browser.service';
 import { prepareNodeModule } from '../commons';
 import { BrowserContextService } from './browser.context.service';

@@ -3,14 +3,14 @@ import {
   CommonWalletConfig,
   WalletConfig,
   WalletPage,
-} from '@tester223/wallets-testing-wallets';
+} from '@tester513/wallets-testing-wallets';
 import {
   Extension,
   ExtensionService,
-} from '@tester223/wallets-testing-extensions';
+} from '@tester513/wallets-testing-extensions';
 import { ConfigService } from '../config';
-import { Account, EthereumNodeService } from '@tester223/wallets-testing-nodes';
-import { WidgetConfig, StakeConfig } from '@tester223/wallets-testing-widgets';
+import { Account, EthereumNodeService } from '@tester513/wallets-testing-nodes';
+import { WidgetConfig, StakeConfig } from '@tester513/wallets-testing-widgets';
 import { WALLET_PAGES, WIDGET_PAGES } from './browser.constants';
 import { BrowserContextService } from './browser.context.service';
 

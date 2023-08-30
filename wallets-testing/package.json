@@ -18,10 +18,10 @@
     "test:widgets": "yarn pretest && playwright test -c ./dist widgets"
   },
   "dependencies": {
-    "@tester223/wallets-testing-extensions": "link:../packages/extensions",
-    "@tester223/wallets-testing-nodes": "link:../packages/nodes",
-    "@tester223/wallets-testing-wallets": "link:../packages/wallets",
-    "@tester223/wallets-testing-widgets": "link:../packages/widgets",
+    "@tester513/wallets-testing-extensions": "link:../packages/extensions",
+    "@tester513/wallets-testing-nodes": "link:../packages/nodes",
+    "@tester513/wallets-testing-wallets": "link:../packages/wallets",
+    "@tester513/wallets-testing-widgets": "link:../packages/widgets",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.0.0",

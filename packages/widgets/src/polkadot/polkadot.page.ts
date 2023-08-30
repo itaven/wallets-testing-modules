@@ -2,7 +2,7 @@ import { WidgetPage } from '../widgets.page';
 import { Logger } from '@nestjs/common';
 import { Page, test } from '@playwright/test';
 import { StakeConfig } from '../widgets.constants';
-import { WalletPage } from '@tester223/wallets-testing-wallets';
+import { WalletPage } from '@tester513/wallets-testing-wallets';
 import { POLKADOT_WIDGET_CONFIG } from './polkadot.constants';
 import expect from 'expect';
 

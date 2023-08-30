@@ -1,5 +1,5 @@
 import { Page } from 'playwright';
-import { WalletPage } from '@tester223/wallets-testing-wallets';
+import { WalletPage } from '@tester513/wallets-testing-wallets';
 
 export interface WidgetPage {
   page: Page | undefined;
