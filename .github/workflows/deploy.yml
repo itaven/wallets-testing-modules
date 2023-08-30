@@ -26,7 +26,10 @@ jobs:
       - name: Install root dependencies
         run: yarn install --immutable
       - name: Install wallets dependencies
-        run: yarn install --immutable
+        run:
+          cd ./wallets-testing
+          yarn install --immutable
+          cd ..
       - name: Run lint
         run: yarn lint
 
