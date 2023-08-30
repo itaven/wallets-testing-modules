@@ -39,7 +39,7 @@
     "git": {
       "requireCleanWorkingDir": false,
       "tag": true,
-      "tagName": "$(npm.name)@${version}"
+      "tagName": "${npm.name}@${version}"
     },
     "npm": {
       "ignoreVersion": true
