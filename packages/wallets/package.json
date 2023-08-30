@@ -39,7 +39,7 @@
     "git": {
       "requireCleanWorkingDir": false,
       "tag": true,
-      "tagAnnotation": "wallets-testing-wallets/${version}"
+      "tagAnnotation": "wallets/${version}"
     },
     "npm": {
       "ignoreVersion": true
