@@ -1,6 +1,6 @@
 {
-  "name": "@tester120/wallets-testing-extensions",
-  "version": "0.0.1",
+  "name": "@tester121/wallets-testing-extensions",
+  "version": "0.0.0",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
@@ -50,7 +50,7 @@
       "tagAnnotation": "wallets-testing-extensions/${version}"
     },
     "npm": {
-      "ignoreVersion": false
+      "ignoreVersion": true
     }
   }
 }
