@@ -47,7 +47,7 @@
     "git": {
       "requireCleanWorkingDir": false,
       "tag": true,
-      "tagAnnotation": "nodes/${version}"
+      "tagName": "$(npm.name)@${version}"
     },
     "npm": {
       "ignoreVersion": true
