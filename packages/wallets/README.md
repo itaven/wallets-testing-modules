@@ -5,7 +5,7 @@ Module with playwright page objects for wallet extensions
 ## Install
 
 ```bash
-yarn add @lidofinance/wallets-testing-wallets
+yarn add @tester223/wallets-testing-wallets
 ```
 
 ## Usage

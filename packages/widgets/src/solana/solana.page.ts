@@ -3,7 +3,7 @@ import { StakeConfig } from '../widgets.constants';
 import { WidgetPage } from '../widgets.page';
 import expect from 'expect';
 import { Logger } from '@nestjs/common';
-import { WalletPage } from '@lidofinance/wallets-testing-wallets';
+import { WalletPage } from '@tester223/wallets-testing-wallets';
 import { test, Page } from '@playwright/test';
 
 export class SolanaPage implements WidgetPage {

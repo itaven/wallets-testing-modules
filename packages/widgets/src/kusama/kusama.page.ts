@@ -2,7 +2,7 @@ import { WidgetPage } from '../widgets.page';
 import { Logger } from '@nestjs/common';
 import { Page, test } from '@playwright/test';
 import { StakeConfig } from '../widgets.constants';
-import { WalletPage } from '@lidofinance/wallets-testing-wallets';
+import { WalletPage } from '@tester223/wallets-testing-wallets';
 import { KUSAMA_WIDGET_CONFIG } from './kusama.constants';
 import expect from 'expect';
 

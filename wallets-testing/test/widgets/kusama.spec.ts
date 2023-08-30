@@ -1,8 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import { prepareNodeModule } from '../../commons';
-import { METAMASK_COMMON_CONFIG } from '@lidofinance/wallets-testing-wallets';
-import { KUSAMA_WIDGET_CONFIG } from '@lidofinance/wallets-testing-widgets';
+import { METAMASK_COMMON_CONFIG } from '@tester223/wallets-testing-wallets';
+import { KUSAMA_WIDGET_CONFIG } from '@tester223/wallets-testing-widgets';
 import { BrowserModule } from '../../browser/browser.module';
 import { BrowserService } from '../../browser/browser.service';
 import { test } from '@playwright/test';

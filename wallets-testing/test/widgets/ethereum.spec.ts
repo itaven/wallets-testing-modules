@@ -11,8 +11,8 @@ import {
   TAHO_COMMON_CONFIG,
   EXODUS_COMMON_CONFIG,
   XDEFI_COMMON_CONFIG,
-} from '@lidofinance/wallets-testing-wallets';
-import { ETHEREUM_WIDGET_CONFIG } from '@lidofinance/wallets-testing-widgets';
+} from '@tester223/wallets-testing-wallets';
+import { ETHEREUM_WIDGET_CONFIG } from '@tester223/wallets-testing-widgets';
 import { BrowserModule } from '../../browser/browser.module';
 import { BrowserService } from '../../browser/browser.service';
 import { test } from '@playwright/test';

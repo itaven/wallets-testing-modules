@@ -5,7 +5,7 @@ Module for using local ganache node with playwright helpers
 ## Install
 
 ```bash
-yarn add @lidofinance/wallets-testing-nodes
+yarn add @tester223/wallets-testing-nodes
 ```
 
 ## Usage

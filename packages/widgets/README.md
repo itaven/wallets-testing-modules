@@ -5,14 +5,14 @@ Module with playwright page objects for lido widgets
 ## Install
 
 ```bash
-yarn add @lidofinance/wallets-testing-widgets
+yarn add @tester223/wallets-testing-widgets
 ```
 
 ## Usage
 
 ```ts
 import {Page} from "playwright";
-import {EthereumPage} from "@lidofinance/wallets-testing-widgets";
+import {EthereumPage} from "@tester223/wallets-testing-widgets";
 
 export class MyService {
     constructor() {

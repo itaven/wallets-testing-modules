@@ -5,13 +5,13 @@ Download extensions from chrome store
 ## Install
 
 ```bash
-yarn add @lidofinance/wallets-testing-extensions
+yarn add @tester223/wallets-testing-extensions
 ```
 
 ## Usage
 
 ```ts
-import {ExtensionService, ExtensionsModule} from "@lidofinance/wallets-testing-extensions";
+import {ExtensionService, ExtensionsModule} from "@tester223/wallets-testing-extensions";
 
 @Module({
     imports: [ExtensionsModule],

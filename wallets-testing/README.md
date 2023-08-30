@@ -1,6 +1,6 @@
 ## Project with wallets tests
 
-Based on @lidofinance/wallets-testing packages   
+Based on @tester223/wallets-testing packages   
 Test wallets and widgets compatibility on the Mainnet-like environment
 
 ## Run tests

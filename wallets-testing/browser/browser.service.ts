@@ -3,20 +3,14 @@ import {
   CommonWalletConfig,
   WalletConfig,
   WalletPage,
-} from '@lidofinance/wallets-testing-wallets';
+} from '@tester223/wallets-testing-wallets';
 import {
   Extension,
   ExtensionService,
-} from '@lidofinance/wallets-testing-extensions';
+} from '@tester223/wallets-testing-extensions';
 import { ConfigService } from '../config';
-import {
-  Account,
-  EthereumNodeService,
-} from '@lidofinance/wallets-testing-nodes';
-import {
-  WidgetConfig,
-  StakeConfig,
-} from '@lidofinance/wallets-testing-widgets';
+import { Account, EthereumNodeService } from '@tester223/wallets-testing-nodes';
+import { WidgetConfig, StakeConfig } from '@tester223/wallets-testing-widgets';
 import { WALLET_PAGES, WIDGET_PAGES } from './browser.constants';
 import { BrowserContextService } from './browser.context.service';
 
