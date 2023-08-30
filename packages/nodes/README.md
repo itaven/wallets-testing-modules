@@ -10,7 +10,7 @@ yarn add @tester223/wallets-testing-nodes
 
 ## Usage
 
-Import this module and provide `rpcUrl` parameter via factory
+Import this module and provide `rpcUrl` parameter via factory12312321312312
 
 ```ts
 @Module({
