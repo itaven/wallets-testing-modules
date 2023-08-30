@@ -10,7 +10,7 @@ export class GameStopPage implements WalletPage {
     private extensionUrl: string,
     public config: WalletConfig,
   ) {}
-
+  //123
   async navigate() {
     await test.step('Navigate to GameStop', async () => {
       this.page = await this.browserContext.newPage();
