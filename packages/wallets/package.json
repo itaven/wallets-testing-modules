@@ -22,7 +22,7 @@
     "lidofinance"
   ],
   "files": [
-    "dist/*"
+    "tsconfig.json"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
