@@ -19,7 +19,7 @@ export class PolkadotPage implements WidgetPage {
       await this.page.goto(POLKADOT_WIDGET_CONFIG.url);
     });
   }
-
+  //123
   async connectWallet(walletPage: WalletPage): Promise<void> {
     await test.step(
       'Connect wallet ' + walletPage.config.COMMON.WALLET_NAME,
